@@ -2160,6 +2160,16 @@ export const extraRpcs = {
     ],
   }
 };
+  59140: {
+    rpcs: [
+      {
+        url: "https://rpc.goerli.linea.build/",
+        tracking: "none",
+        trackingDetails: privacyStatement.publicnode,
+      }
+    ],
+  }
+};
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
